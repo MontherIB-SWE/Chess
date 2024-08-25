@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sql.demo.HelloController">
+   <children>
+      <Button fx:id="a7" layoutX="343.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="a77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BKnight.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="b7" layoutX="343.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="b77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="e7" layoutX="343.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="e77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="c7" layoutX="343.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="c77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="f7" layoutX="343.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="f77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="d7" layoutX="343.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="d77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="g7" layoutX="343.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="g77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="h7" layoutX="343.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="h77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WKnight.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="a8" layoutX="399.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="a88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BRook.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="b8" layoutX="399.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="b88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="e8" layoutX="399.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="e88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="c8" layoutX="399.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="c88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="f8" layoutX="399.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="f88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="d8" layoutX="399.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="d88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="g8" layoutX="399.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="g88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="h8" layoutX="399.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="h88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WRook.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="a1" layoutX="7.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="a11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BRook.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="a5" layoutX="231.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="a55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BKing.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b5" layoutX="231.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="b55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="e5" layoutX="231.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="e55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+      <Button fx:id="c5" layoutX="231.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="c55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="f5" layoutX="231.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="f55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="d5" layoutX="231.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="d55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="g5" layoutX="231.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="g55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="h5" layoutX="231.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="h55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WKing.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="a6" layoutX="287.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="a66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BBishop.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b6" layoutX="287.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="b66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="e6" layoutX="287.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="e66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="c6" layoutX="287.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="c66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="f6" layoutX="287.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="f66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="d6" layoutX="287.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="d66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="g6" layoutX="287.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="g66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="h6" layoutX="287.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="h66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WBishop.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="a3" layoutX="119.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="a33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BBishop.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b3" layoutX="119.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="b33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="e3" layoutX="119.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="e33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="c3" layoutX="119.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="c33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="f3" layoutX="119.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="f33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="d3" layoutX="119.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="d33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="g3" layoutX="119.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="g33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="h3" layoutX="119.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="h33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WBishop.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="a4" layoutX="175.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="a44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BQueen.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b4" layoutX="175.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="b44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="e4" layoutX="175.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="e44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="c4" layoutX="175.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="c44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="f4" layoutX="175.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="f44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="d4" layoutX="175.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="d44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="g4" layoutX="175.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="g44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="h4" layoutX="175.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="h44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WQueen.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b1" layoutX="7.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="b11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="e1" layoutX="7.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="e11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="c1" layoutX="7.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="c11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="f1" layoutX="7.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="f11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="d1" layoutX="7.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="d11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="g1" layoutX="7.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="g11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="h1" layoutX="7.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="h11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WRook.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="a2" layoutX="63.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="a22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BKnight.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="b2" layoutX="63.0" layoutY="157.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="b22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/BPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="e2" layoutX="63.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="e22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="c2" layoutX="63.0" layoutY="209.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="c22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="f2" layoutX="63.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="f22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="d2" layoutX="63.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="d22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="g2" layoutX="63.0" layoutY="417.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: grey;">
+         <graphic>
+            <ImageView fx:id="g22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WPawn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="h2" layoutX="63.0" layoutY="469.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fx:id="h22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/WKnight.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
