@@ -1,5 +1,6 @@
-package sql.demo;
+package Chess;
 
+import Chess.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;

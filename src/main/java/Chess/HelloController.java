@@ -1,4 +1,4 @@
-package sql.demo;
+package Chess;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -199,10 +199,8 @@ public class HelloController {
                             WLight.setFill(Paint.valueOf("RED"));
                         }
                     }
-
-
                     if (!hasLegalMovesToEscapeCheck(player)) {
-                        if (!isKingChecked(player, boardState)) {
+                        if (!isKingChecked(player.equals("White")?"Black":"White", boardState)) {
                             System.out.println("Stalemate");
                             BlackLabel.setText("stalemate");
                             WhiteLabel.setText("stalemate");
@@ -707,36 +705,70 @@ public class HelloController {
 
         if (piece.equals("WPawn") && toX == 0) {
             promote = "WPawn";
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Promotion.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 418, 410);
-            Stage stage = new Stage();
-            stage.setTitle("promote");
-            stage.setScene(scene);
-            stage.show();
+            PromotionDialog dialog = new PromotionDialog();
+            dialog.initOwner(a1.getScene().getWindow()); // Set the owner to make it modal
 
+            // Get the ImageView associated with the clickedButton
+            ImageView imageViewToUpdate = buttonImageViewMap.get(clickedButton);
 
+            // Pass the ImageView to the PromotionController
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Promotion.fxml"));
+            dialog.getDialogPane().setContent(fxmlLoader.load());
+            Promotion promotionController = fxmlLoader.getController();
+            promotionController.setImageViewToUpdate(imageViewToUpdate);
+            promotionController.initialize(null, null);
+
+            dialog.setOnCloseRequest(event -> {
+                Optional<String> result = dialog.getResult().describeConstable(); // Get the result after the dialog is closed
+                result.ifPresent(promotedPiece -> {
+                    lastMove = promote + "-" + fromX + "," + fromY + "-" + toX + "," + toY + "=" + promotedPiece;
+                    updateBoardStateAfterPromotion(promotedPiece);
+                });
+            });
+
+            dialog.showAndWait();
         }
         if (piece.equals("BPawn") && toX == 7) {
             promote = "BPawn";
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Promotion.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 418, 410);
-            Stage stage = new Stage();
-            stage.setTitle("promote");
-            stage.setScene(scene);
-            stage.show();
+            PromotionDialog dialog = new PromotionDialog();
+            dialog.initOwner(a1.getScene().getWindow());
 
+            // Get the ImageView associated with the clickedButton
+            ImageView imageViewToUpdate = buttonImageViewMap.get(clickedButton);
 
+            // Pass the ImageView to the PromotionController
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Promotion.fxml"));
+            dialog.getDialogPane().setContent(fxmlLoader.load());
+            Promotion promotionController = fxmlLoader.getController();
+            promotionController.setImageViewToUpdate(imageViewToUpdate);
+            promotionController.initialize(null, null);
+
+            dialog.setOnCloseRequest(event -> {
+                Optional<String> result = dialog.getResult().describeConstable(); // Get the result after the dialog is closed
+                result.ifPresent(promotedPiece -> {
+                    lastMove = promote + "-" + fromX + "," + fromY + "-" + toX + "," + toY + "=" + promotedPiece;
+                    updateBoardStateAfterPromotion(promotedPiece);
+                });
+            });
+
+            dialog.showAndWait();
         }
 
+        if (!piece.endsWith("Pawn") || (piece.equals("WPawn") && toX != 0) || (piece.equals("BPawn") && toX != 7)) {
+            moveHistory.add(new Move(fromX + "," + fromY, toX + "," + toY, piece));
+        }
+    }
 
-        moveHistory.add(new Move(fromX + "," + fromY, toX + "," + toY, piece));
+
+    public void updateBoardStateAfterPromotion(String newPiece) {
+        String[][] boardState = getBoardState();
+
+        String buttonId = clickedButton.getId();
+        int x = buttonId.charAt(0) - 'a';
+        int y = buttonId.charAt(1) - '1';
+        boardState[x][y] = newPiece;
 
 
-        // 3. Additional Logic (Optional):
-        // - Check for checkmate or stalemate
-        // - Handle pawn promotion
-        // - Update any game history or m ove logs
-        // ...
     }
 
     static String promote;

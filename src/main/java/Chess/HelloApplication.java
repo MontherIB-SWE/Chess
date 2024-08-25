@@ -1,4 +1,4 @@
-package sql.demo;
+package Chess;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,6 +10,8 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        System.out.println(HelloApplication.class.getResource("StartScreen.fxml"));
+
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("StartScreen.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         stage.setTitle("Start Screen");

@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: sql.demo.HelloApplication
+Main-Class: Chess.HelloApplication
 

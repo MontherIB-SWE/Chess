@@ -1,4 +1,4 @@
-package sql.demo;
+package Chess;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
@@ -17,6 +17,8 @@ public class Promotion implements Initializable {
     public ImageView forth;
     public ImageView third;
     public ImageView second;
+
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -45,25 +47,26 @@ public class Promotion implements Initializable {
         }
     }
 
-    public void button(ActionEvent event,String[][] boardState,int toX,int toY) {
+    static String piecePro;
 
+    public void button(ActionEvent event) {
         Button button = (Button) event.getSource();
         ImageView buttonImage = (ImageView) button.getGraphic();
         String url = buttonImage.getImage().getUrl();
 
         String imageName = url.substring(url.lastIndexOf("/") + 1);
         piecePro = imageName.split("\\.")[0];
-
-        Image image = new Image(Objects.requireNonNull(getClass().getResource("/images/"+piecePro+".png")).toExternalForm()); // Load from resources
-        Button button1 = HelloController.clickedButton;
-        ImageView buttonImage1 = (ImageView) button1.getGraphic();
-        buttonImage1.setImage(image);
-
-        Stage stage1 = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage1.close();
-
-
+        Image image = new Image(Objects.requireNonNull(getClass().getResource("/images/"+piecePro+".png")).toExternalForm());
+        // Update the passed ImageView directly
+        imageViewToUpdate.setImage(image);
+    }
+    public String getChosenPiece() {
+        return piecePro;
     }
 
-    static String piecePro;
+    private ImageView imageViewToUpdate;
+
+    public void setImageViewToUpdate(ImageView imageViewToUpdate) {
+        this.imageViewToUpdate = imageViewToUpdate;
+    }
 }

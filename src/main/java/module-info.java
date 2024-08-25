@@ -4,6 +4,6 @@ module sql.demo {
 
     requires org.controlsfx.controls;
 
-    opens sql.demo to javafx.fxml;
-    exports sql.demo;
+    opens Chess to javafx.fxml;
+    exports Chess;
 }

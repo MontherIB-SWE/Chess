@@ -8,13 +8,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sql.demo.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chess.HelloController">
    <children>
       <Button fx:id="a7" layoutX="343.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="52.0" prefWidth="52.0">
          <graphic>
             <ImageView fx:id="a77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BKnight.png" />
+                  <Image url="@../images/BKnight.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -22,7 +22,7 @@
          <graphic>
             <ImageView fx:id="b77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -46,7 +46,7 @@
          <graphic>
             <ImageView fx:id="g77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -54,7 +54,7 @@
          <graphic>
             <ImageView fx:id="h77" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WKnight.png" />
+                  <Image url="@../images/WKnight.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -62,7 +62,7 @@
          <graphic>
             <ImageView fx:id="a88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BRook.png" />
+                  <Image url="@../images/BRook.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -70,7 +70,7 @@
          <graphic>
             <ImageView fx:id="b88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -94,7 +94,7 @@
          <graphic>
             <ImageView fx:id="g88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -102,7 +102,7 @@
          <graphic>
             <ImageView fx:id="h88" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WRook.png" />
+                  <Image url="@../images/WRook.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -110,7 +110,7 @@
          <graphic>
             <ImageView fx:id="a11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BRook.png" />
+                  <Image url="@../images/BRook.png" />
                </image>
             </ImageView>
          </graphic>
@@ -119,7 +119,7 @@
          <graphic>
             <ImageView fx:id="a55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BKing.png" />
+                  <Image url="@../images/BKing.png" />
                </image>
             </ImageView>
          </graphic>
@@ -128,7 +128,7 @@
          <graphic>
             <ImageView fx:id="b55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -160,7 +160,7 @@
          <graphic>
             <ImageView fx:id="g55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -169,7 +169,7 @@
          <graphic>
             <ImageView fx:id="h55" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WKing.png" />
+                  <Image url="@../images/WKing.png" />
                </image>
             </ImageView>
          </graphic>
@@ -178,7 +178,7 @@
          <graphic>
             <ImageView fx:id="a66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BBishop.png" />
+                  <Image url="@../images/BBishop.png" />
                </image>
             </ImageView>
          </graphic>
@@ -187,7 +187,7 @@
          <graphic>
             <ImageView fx:id="b66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -216,7 +216,7 @@
          <graphic>
             <ImageView fx:id="g66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -225,7 +225,7 @@
          <graphic>
             <ImageView fx:id="h66" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WBishop.png" />
+                  <Image url="@../images/WBishop.png" />
                </image>
             </ImageView>
          </graphic>
@@ -234,7 +234,7 @@
          <graphic>
             <ImageView fx:id="a33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BBishop.png" />
+                  <Image url="@../images/BBishop.png" />
                </image>
             </ImageView>
          </graphic>
@@ -243,7 +243,7 @@
          <graphic>
             <ImageView fx:id="b33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -272,7 +272,7 @@
          <graphic>
             <ImageView fx:id="g33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -281,7 +281,7 @@
          <graphic>
             <ImageView fx:id="h33" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WBishop.png" />
+                  <Image url="@../images/WBishop.png" />
                </image>
             </ImageView>
          </graphic>
@@ -290,7 +290,7 @@
          <graphic>
             <ImageView fx:id="a44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BQueen.png" />
+                  <Image url="@../images/BQueen.png" />
                </image>
             </ImageView>
          </graphic>
@@ -299,7 +299,7 @@
          <graphic>
             <ImageView fx:id="b44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -328,7 +328,7 @@
          <graphic>
             <ImageView fx:id="g44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -337,7 +337,7 @@
          <graphic>
             <ImageView fx:id="h44" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WQueen.png" />
+                  <Image url="@../images/WQueen.png" />
                </image>
             </ImageView>
          </graphic>
@@ -346,7 +346,7 @@
          <graphic>
             <ImageView fx:id="b11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -375,7 +375,7 @@
          <graphic>
             <ImageView fx:id="g11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -384,7 +384,7 @@
          <graphic>
             <ImageView fx:id="h11" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WRook.png" />
+                  <Image url="@../images/WRook.png" />
                </image>
             </ImageView>
          </graphic>
@@ -393,7 +393,7 @@
          <graphic>
             <ImageView fx:id="a22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BKnight.png" />
+                  <Image url="@../images/BKnight.png" />
                </image>
             </ImageView>
          </graphic>
@@ -402,7 +402,7 @@
          <graphic>
             <ImageView fx:id="b22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/BPawn.png" />
+                  <Image url="@../images/BPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -431,7 +431,7 @@
          <graphic>
             <ImageView fx:id="g22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WPawn.png" />
+                  <Image url="@../images/WPawn.png" />
                </image>
             </ImageView>
          </graphic>
@@ -440,19 +440,19 @@
          <graphic>
             <ImageView fx:id="h22" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/WKnight.png" />
+                  <Image url="@../images/WKnight.png" />
                </image>
             </ImageView>
          </graphic>
       </Button>
       <ImageView fx:id="BlackK" fitHeight="52.0" fitWidth="56.0" layoutX="65.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Pictures/BKing.png" />
+            <Image url="@../images/BKing.png" />
          </image>
       </ImageView>
       <ImageView fx:id="WhiteK" fitHeight="52.0" fitWidth="56.0" layoutX="345.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Pictures/WKing.png" />
+            <Image url="@../images/WKing.png" />
          </image>
       </ImageView>
       <Label fx:id="BlackLabel" alignment="CENTER" layoutX="63.0" layoutY="70.0" prefHeight="18.0" prefWidth="56.0" textAlignment="CENTER" />
